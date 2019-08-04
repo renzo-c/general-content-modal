@@ -23,10 +23,14 @@
 }
 
 .close {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
   user-select: none;
+  outline: 0;
   position: absolute;
-  top: -2em;
-  right: -2em;
+  top: -2.1em;
+  right: -2.45em;
   cursor: pointer;
 }
 

@@ -20,7 +20,18 @@ const Modal = ({ children, buttonLabel, modalHeader }) => {
       {open && (
         <div className="backgroundContainer">
           <div className="container">
-            <span className="close"><img src="https://img.icons8.com/windows/32/000000/close-window.png"/></span>
+            <button
+              type="button"
+              className="close"
+              onClick={handleClose}
+            >
+              <span>
+                <img
+                  src="https://img.icons8.com/windows/32/000000/close-window.png"
+                  alt="x"
+                />
+              </span>
+            </button>
             <div>{modalHeader}</div>
             {children}
             <div className="footer" />

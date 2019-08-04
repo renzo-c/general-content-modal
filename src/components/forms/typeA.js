@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './style.css';
 
 const TypeA = () => {
   const [companyName, setCompanyName] = useState('');
@@ -19,12 +20,12 @@ const TypeA = () => {
     }
   };
 
-  const handleClick = (event) => {
+  const handleSave = (event) => {
     event.preventDefault();
   };
 
   return (
-    <form>
+    <div className="containerTypeA">
       <input
         name="companyName"
         type="text"
@@ -49,7 +50,10 @@ const TypeA = () => {
         placeholder="Enter Address"
         required
       />
-    </form>
+      <button type="button" onClick={handleSave}>
+        Save
+      </button>
+    </div>
   );
 };
 
