@@ -32,9 +32,8 @@ const Modal = ({ children, buttonLabel, modalHeader }) => {
                 />
               </span>
             </button>
-            <div>{modalHeader}</div>
+            <div className="header">{modalHeader}</div>
             {children}
-            <div className="footer" />
           </div>
         </div>
       )}

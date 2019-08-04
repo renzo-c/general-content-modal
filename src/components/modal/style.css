@@ -12,6 +12,7 @@
   top: 50%;
   transform: translateY(-50%);
   min-height: 15em;
+  max-height: 80vh;
   max-width: 30em;
   padding: 2em;
   margin: 0 auto;
@@ -43,4 +44,10 @@
   padding: 0.25em;
   line-height: 70%;
   border-radius: 50%;
+}
+
+.header {
+  margin-bottom: 1em;
+  font-size: 2em;
+  font-weight: bold;
 }

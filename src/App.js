@@ -1,20 +1,19 @@
 import React from 'react';
 import Modal from './components/modal';
-import TypeA from './components/forms/typeA';
+import ShortForm from './components/ShortForm';
+import LongForm from './components/LongForm';
+import Table from './components/Table';
 
 const App = () => (
   <>
-    <Modal buttonLabel="Modal A: Fill Form" modalHeader="Fill Form">
-      <TypeA />
+    <Modal buttonLabel="Modal A: Short Form" modalHeader="Short Form">
+      <ShortForm />
     </Modal>
-    <Modal
-      buttonLabel="Modal B: Display Grid"
-      modalHeader="Display Grid"
-    >
-      <TypeA />
+    <Modal buttonLabel="Modal B: Long Form" modalHeader="Long Form">
+      <LongForm />
     </Modal>
     <Modal buttonLabel="Modal C: Table" modalHeader="Table">
-      <TypeA />
+      <Table />
     </Modal>
   </>
 );

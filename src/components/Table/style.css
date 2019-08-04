@@ -1,0 +1,4 @@
+.containerTable {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
