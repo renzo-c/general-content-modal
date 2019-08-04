@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './style.css';
 
-const Modal = ({ children, title }) => {
+const Modal = ({ children, buttonLabel, modalHeader }) => {
   const [open, setOpen] = useState(false);
 
   const handlerOpen = () => {
@@ -15,17 +15,15 @@ const Modal = ({ children, title }) => {
   return (
     <>
       <button type="button" onClick={handlerOpen}>
-        {title}
+        {buttonLabel}
       </button>
       {open && (
         <div className="backgroundContainer">
           <div className="container">
+            <span className="close"><img src="https://img.icons8.com/windows/32/000000/close-window.png"/></span>
+            <div>{modalHeader}</div>
             {children}
-            <div className="footer">
-              <button type="button" onClick={handleClose}>
-                Close
-              </button>
-            </div>
+            <div className="footer" />
           </div>
         </div>
       )}

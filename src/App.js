@@ -4,13 +4,16 @@ import TypeA from './components/forms/typeA';
 
 const App = () => (
   <>
-    <Modal title="Modal A: Fill Form">
+    <Modal buttonLabel="Modal A: Fill Form" modalHeader="Fill Form">
       <TypeA />
     </Modal>
-    <Modal title="Modal B: Display Form">
+    <Modal
+      buttonLabel="Modal B: Display Grid"
+      modalHeader="Display Grid"
+    >
       <TypeA />
     </Modal>
-    <Modal title="Modal C: Table">
+    <Modal buttonLabel="Modal C: Table" modalHeader="Table">
       <TypeA />
     </Modal>
   </>

@@ -49,9 +49,6 @@ const TypeA = () => {
         placeholder="Enter Address"
         required
       />
-      <button type="button" onClick={handleClick}>
-        Go!
-      </button>
     </form>
   );
 };
