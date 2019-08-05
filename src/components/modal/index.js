@@ -12,10 +12,6 @@ const Modal = ({ children, buttonLabel, modalHeader }) => {
     setOpen(false);
   };
 
-  const handleBackgroundClick = () => {
-    setOpen(false);
-  };
-
   return (
     <>
       <button
@@ -26,11 +22,7 @@ const Modal = ({ children, buttonLabel, modalHeader }) => {
         {buttonLabel}
       </button>
       {open && (
-        <div
-          role="button"
-          className="backgroundContainer"
-          onClick={handleBackgroundClick}
-        >
+        <div className="backgroundContainer">
           <div className="container">
             <button
               type="button"
