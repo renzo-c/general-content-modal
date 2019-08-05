@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.css';
 
 const Table = () => (
   <div className="containerTable">
@@ -60,6 +61,14 @@ const Table = () => (
         <td>67</td>
       </tr>
     </table>
+    <p>
+      Table model and data from
+      {' '}
+      <a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_table_responsive">
+        w3schools
+      </a>
+      :
+    </p>
   </div>
 );
 

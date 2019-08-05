@@ -14,7 +14,7 @@ const Modal = ({ children, buttonLabel, modalHeader }) => {
 
   return (
     <>
-      <button type="button" onClick={handlerOpen}>
+      <button type="button" className="modalButtonStyle" onClick={handlerOpen}>
         {buttonLabel}
       </button>
       {open && (

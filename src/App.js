@@ -12,7 +12,10 @@ const App = () => (
     <Modal buttonLabel="Modal B: Long Form" modalHeader="Long Form">
       <LongForm />
     </Modal>
-    <Modal buttonLabel="Modal C: Table" modalHeader="Table">
+    <Modal
+      buttonLabel="Modal C: Broad Table"
+      modalHeader="Broad Table"
+    >
       <Table />
     </Modal>
   </>

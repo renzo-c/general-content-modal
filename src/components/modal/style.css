@@ -13,7 +13,7 @@
   transform: translateY(-50%);
   min-height: 15em;
   max-height: 80vh;
-  max-width: 30em;
+  max-width: fit-content;
   padding: 2em;
   margin: 0 auto;
   border-radius: 1em;
@@ -50,4 +50,23 @@
   margin-bottom: 1em;
   font-size: 2em;
   font-weight: bold;
+}
+
+.modalButtonStyle {
+  background-color: #343436;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 250px;
+  border-radius: 4px;
+}
+
+.modalButtonStyle:hover {
+  background-color: #454546;
 }

@@ -19,7 +19,21 @@ input {
 }
 
 .buttonStyle {
-  padding: 0.5em;
-  margin: 0.8em 0 0 0;
-  border-radius: 2%;
+  background-color: #343436;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 150px;
+  border-radius: 4px;
+  align-self: center;
+}
+
+.buttonStyle:hover {
+  background-color: #454546;
 }

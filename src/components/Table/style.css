@@ -2,3 +2,20 @@
   overflow-x: auto;
   scroll-behavior: smooth;
 }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid black;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.8em;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(152,152,152);
+}
