@@ -1,12 +1,7 @@
-# React.js frontend template
+# General content modal
  
-This is a basic React.js set up. It is used as a boilerplate in my projects.
-
-It includes:
+Type:
 <ol>
-<li>Webpack</li>
-<li>Babel</li>
-<li>React, React-Dom</li>
-<li>ESLint</>
-<li>Express</>
+<li>yarn install</li>
+<li>yarn dev</li>
 </ol>
